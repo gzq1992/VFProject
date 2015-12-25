@@ -1,0 +1,34 @@
+﻿生成启动时间为 2015/11/29 16:18:58。
+     1>项目“G:\Project\Cplusplus\GenerateModel\GenerateModel\GenerateModel.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\Program Files\MATLAB\R2013a\extern\include\win64" /I"D:\Program Files\MATLAB\R2013a\extern\include" /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Debug\GenerateModel.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\Program Files\MATLAB\R2013a\extern\include\win64" /I"D:\Program Files\MATLAB\R2013a\extern\include" /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\GenerateModel.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt AdjcentVertices.cpp BaseInfo.cpp Boundary.cpp GenerateModel.cpp HumanModel.cpp SearchBody.cpp Spring.cpp
+         Spring.cpp
+         SearchBody.cpp
+     1>SearchBody.cpp(78): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>SearchBody.cpp(84): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>SearchBody.cpp(89): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>SearchBody.cpp(94): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         HumanModel.cpp
+         GenerateModel.cpp
+         Boundary.cpp
+         BaseInfo.cpp
+         AdjcentVertices.cpp
+         正在生成代码...
+     1>g:\project\cplusplus\generatemodel\generatemodel\searchbody.cpp(124): warning C4715: “FindCloset”: 不是所有的控件路径都返回值
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Project\Cplusplus\GenerateModel\x64\Debug\GenerateModel.exe" /INCREMENTAL /NOLOGO libmat.lib libmx.lib libmex.lib libeng.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\Project\Cplusplus\GenerateModel\x64\Debug\GenerateModel.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Project\Cplusplus\GenerateModel\x64\Debug\GenerateModel.lib" /MACHINE:X64 x64\Debug\AdjcentVertices.obj
+         x64\Debug\BaseInfo.obj
+         x64\Debug\Boundary.obj
+         x64\Debug\GenerateModel.obj
+         x64\Debug\HumanModel.obj
+         x64\Debug\SearchBody.obj
+         x64\Debug\Spring.obj
+         x64\Debug\stdafx.obj
+         GenerateModel.vcxproj -> G:\Project\Cplusplus\GenerateModel\x64\Debug\GenerateModel.exe
+     1>已完成生成项目“G:\Project\Cplusplus\GenerateModel\GenerateModel\GenerateModel.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.04
